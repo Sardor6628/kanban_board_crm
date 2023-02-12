@@ -15,7 +15,7 @@ class ExportCSVService {
         'created time',
         'completed date',
         'completed time',
-        'spentt ime',
+        'spent time',
       ]
     ];
     tasks.forEach((element) {
