@@ -8,7 +8,9 @@ Cloning the Project
 Open the terminal or command line on your computer.
 Clone the project repository by running the following command:
 
+
 $ git clone https://github.com/Sardor6628/kanban_board_crm.git
+
 
 Running the Project
 
