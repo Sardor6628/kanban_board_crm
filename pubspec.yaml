@@ -12,17 +12,17 @@ dependencies:
     sdk: flutter
 
   cupertino_icons: ^1.0.2           # icons for ios
-  http: ^0.13.5                     # http request
+  http: ^1.2.0                     # http request
   equatable: ^2.0.5                 # equatable is a package that helps to implement value equality without having to explicitly override == and hashCode in every class.
-  intl: ^0.18.0                     # http is a set of high-level functions and classes that make it easy to consume HTTP resources.
+  intl: ^0.19.0                     # http is a set of high-level functions and classes that make it easy to consume HTTP resources.
   fluttertoast: ^8.1.2              # fluttertoast is a flutter plugin for showing toast.
   firebase_auth: ^4.2.2             # firebase_auth is a Flutter plugin to use the Firebase Authentication API.
-  google_sign_in: ^5.4.4            # google_sign_in is a Flutter plugin for Google Sign In.
+  google_sign_in: ^6.2.1            # google_sign_in is a Flutter plugin for Google Sign In.
   firebase_core: ^2.4.1             # firebase_core is a Flutter plugin to use the Firebase Core API.
   email_validator: ^2.1.17          # email_validator is a simple and lightweight package to validate email addresses.
   flutter_bloc: ^8.1.2              # flutter_bloc is a predictable state management library that helps implement the BLoC design pattern.
   cloud_firestore: ^4.3.1           # cloud_firestore is a Flutter plugin to use the Cloud Firestore API.
-  stop_watch_timer: ^2.0.0          # stop_watch_timer is a Flutter plugin for stopwatch and timer.
+  stop_watch_timer: ^3.1.0+4          # stop_watch_timer is a Flutter plugin for stopwatch and timer.
   path_provider: ^2.0.12            # path_provider is a Flutter plugin for finding commonly used locations on the filesystem.
   share: ^2.0.4                     # share is a Flutter plugin for sharing files from the Flutter app using the platform's share dialog.
   csv: ^5.0.1                       # csv is a Dart package for reading and writing CSV files.

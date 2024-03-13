@@ -158,9 +158,8 @@ class _SignUpState extends State<SignUp> {
                         child: Row(
                           mainAxisAlignment: MainAxisAlignment.center,
                           children: [
-                            Image.network(
-                              "https://upload.wikimedia.org/wikipedia/commons/thumb/5/53/Google_%22G%22_Logo.svg/1200px-Google_%22G%22_Logo.svg.png",
-                              height: 30,
+                            Image.asset(
+                              "assets/images/logo_g.png",
                               width: 30,
                             ),
                             const SizedBox(

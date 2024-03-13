@@ -34,7 +34,7 @@ class _InProgessTaskWidgetState extends State<InProgessTaskWidget> {
           mSec: (DateTime.now().millisecondsSinceEpoch -
                   task.startedTime!.millisecondsSinceEpoch) +
               task.spentTime); //set start time
-      _stopWatchTimer.onExecute.add(StopWatchExecute.start); // starts the timer
+      _stopWatchTimer.onStartTimer(); // starts the timer
     }
     super.initState();
   }
