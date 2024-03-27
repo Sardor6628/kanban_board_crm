@@ -47,7 +47,7 @@ class MyApp extends StatelessWidget {
           title: 'Kanban Board',
           theme: ThemeData(
               colorScheme: ColorScheme.fromSwatch().copyWith(
-                // background: const Color(0xffF5F5F5),
+                background: const Color(0xffF5F5F5),
                   primary: const Color(0xff0059B4),
                   secondary: const Color(0xff2789FD))),
           darkTheme: ThemeData(

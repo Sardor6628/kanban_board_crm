@@ -67,13 +67,15 @@ class Task {
       currentStatus: currentStatus ?? this.currentStatus,
     );
   }
+
 //convert task to map
   String toString() {
     return 'Task(id: $id, title: $title, userId: $userId, description: $description, createdTime: $createdTime, completedTime: $completedTime, startedTime: $startedTime, spentTime: $spentTime, currentStatus: $currentStatus)';
   }
+
   //convert task to list(needed for csv export)
   List<dynamic> toList() {
-    final seconds = spentTime/ 1000;
+    final seconds = spentTime / 1000;
     final minutes = seconds / 60;
     final hours = minutes / 60;
     int hoursInt = hours.toInt() % 24;
