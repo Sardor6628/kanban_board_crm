@@ -35,9 +35,9 @@ Widget AddAndUpdateTaskDialog(
           TextField(
             controller: descriptionController,
             textInputAction: TextInputAction.done,
-            onEditingComplete: (){
-              _addUpdateTask(titleController, descriptionController, isUpdate, controller, task, context);
-
+            onEditingComplete: () {
+              _addUpdateTask(titleController, descriptionController, isUpdate,
+                  controller, task, context);
             },
             decoration: const InputDecoration(
               labelText: 'Description',
@@ -55,15 +55,22 @@ Widget AddAndUpdateTaskDialog(
           child: const Text('Cancel')),
       TextButton(
           onPressed: () {
-            _addUpdateTask(titleController, descriptionController, isUpdate, controller, task, context);
+            _addUpdateTask(titleController, descriptionController, isUpdate,
+                controller, task, context);
           },
           child: Text(isUpdate ? 'Update' : 'Add'))
     ],
   );
 }
 
-void _addUpdateTask(TextEditingController titleController, TextEditingController descriptionController, bool isUpdate, controller, Task? task, BuildContext context) {
-   if (titleController.text.isNotEmpty &&
+void _addUpdateTask(
+    TextEditingController titleController,
+    TextEditingController descriptionController,
+    bool isUpdate,
+    controller,
+    Task? task,
+    BuildContext context) {
+  if (titleController.text.isNotEmpty &&
       descriptionController.text.isNotEmpty) {
     if (!isUpdate) {
       controller.add(AddTask(

@@ -1,5 +1,4 @@
 import 'package:kanban_board/constants/contant_variables.dart';
-
 class Task {
   final String id;
   final String title;
@@ -10,7 +9,6 @@ class Task {
   final DateTime? startedTime;
   final int spentTime;
   final String currentStatus;
-
   Task({
     required this.id,
     required this.title,
@@ -22,7 +20,6 @@ class Task {
     required this.spentTime,
     required this.currentStatus,
   });
-
   factory Task.fromFirestore(Map<String, dynamic> data, String id) {
     return Task(
       id: id,
@@ -73,7 +70,7 @@ class Task {
     return 'Task(id: $id, title: $title, userId: $userId, description: $description, createdTime: $createdTime, completedTime: $completedTime, startedTime: $startedTime, spentTime: $spentTime, currentStatus: $currentStatus)';
   }
 
-  //convert task to list(needed for csv export)
+//convert task to list(needed for csv export)
   List<dynamic> toList() {
     final seconds = spentTime / 1000;
     final minutes = seconds / 60;

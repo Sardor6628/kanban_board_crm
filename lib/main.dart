@@ -6,7 +6,7 @@ import 'package:flutter_bloc/flutter_bloc.dart';
 import 'package:kanban_board/blocks/authentication/auth_bloc.dart';
 import 'package:kanban_board/blocks/task_block/task_bloc.dart';
 import 'package:kanban_board/constants/routes.dart';
-import 'package:kanban_board/presentation/authentication/sign_in/sign_in.dart';
+import 'package:kanban_board/presentation/authentication/sign_in.dart';
 import 'package:kanban_board/presentation/dashboard/dashoboard.dart';
 import 'package:kanban_board/repositories/auth_repository.dart';
 import 'package:kanban_board/repositories/task_repository.dart';

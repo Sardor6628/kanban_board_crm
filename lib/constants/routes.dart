@@ -1,7 +1,7 @@
 
 import 'package:flutter/material.dart';
-import 'package:kanban_board/presentation/authentication/sign_in/sign_in.dart';
-import 'package:kanban_board/presentation/authentication/sign_up/sign_up.dart';
+import 'package:kanban_board/presentation/authentication/sign_in.dart';
+import 'package:kanban_board/presentation/authentication/sign_up.dart';
 import 'package:kanban_board/presentation/dashboard/dashoboard.dart';
 
 import '../presentation/history/history_page.dart';
